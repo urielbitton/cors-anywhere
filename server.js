@@ -13,7 +13,7 @@ function parseEnvList(env) {
   if (!env) {
     return [];
   }
-  return env.split(',');
+  return env.split(','); 
 }
 
 // Set up rate-limiting to avoid abuse of the public CORS Anywhere server.
